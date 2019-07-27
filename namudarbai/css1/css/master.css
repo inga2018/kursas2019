@@ -1,0 +1,12 @@
+p{
+	font-family: arial;
+}
+p.color{
+	color: gray;
+}
+h1,h2{
+	color: #EE4586;
+}
+#em{
+	font-style: italic;
+}
