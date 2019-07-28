@@ -9,8 +9,10 @@
 <body>
 	<fieldset>
 		<legend>Jūsų informacija</legend>
-		<p>Vardas:&nbsp;&nbsp; <input type="text" name="name" value=""></p>
-		<p>Pavardė: <input type="text" name="surname" value=""></p>
+		<table>
+			<tr>Vardas:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" value=""></tr>
+			<td>Pavardė: <input type="text" name="surname" value=""></td>
+		</table>
 	</fieldset>
 	<fieldset>
 		<legend>Klausimai</legend>
@@ -30,15 +32,16 @@
 		<textarea rows="9" cols="100" input placeholder="Rašykite viską ką galvojate" type="text" name="opinion"></textarea>
 		<pre></pre>
 		Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:<br>
-		<input type="checkbox" name="languages" value="csharp">C#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<input type="checkbox" name="languages" value="JAVA">JAVA
-		<input type="checkbox" name="languages" value="PHP">PHP <br>
-		<input type="checkbox" name="languages" value="HTML">HTML
-		<input type="checkbox" name="languages" value="CSS">CSS&nbsp
-		<input type="checkbox" name="languages" value="JavaScript">JavaScript <br>
-		<input type="checkbox" name="languages" value="Python">Python
-		<input type="checkbox" name="languages" value="Ruby">Ruby <br>
-		<pre></pre>
+		<table>
+		<tr><input type="checkbox" name="languages" value="csharp">C#&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</tr>
+		<tr><input type="checkbox" name="languages" value="JAVA">JAVA</tr>
+		<tr><input type="checkbox" name="languages" value="PHP">PHP</tr><br>
+		<tr><input type="checkbox" name="languages" value="HTML">HTML</tr>
+		<tr><input type="checkbox" name="languages" value="CSS">CSS&nbsp</tr>
+		<tr><input type="checkbox" name="languages" value="JavaScript">JavaScript</tr><br>
+		<tr><input type="checkbox" name="languages" value="Python">Python</tr>
+		<tr><input type="checkbox" name="languages" value="Ruby">Ruby</tr> <br>
+		</table>
 		<input type="submit" name="" value="SIŲSTI">
 	</fieldset>
 </body>
