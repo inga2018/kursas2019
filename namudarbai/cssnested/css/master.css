@@ -1,0 +1,6 @@
+ul li {
+	color: blue;
+}
+ul > li + li {
+	color: red;
+}
