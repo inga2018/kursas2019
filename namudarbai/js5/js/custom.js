@@ -3,7 +3,6 @@ function ivestasAmzius(){
 	alert ("Įveskite skaičių");
 	}
 	if (amzius < 18) {
-		let rezultatas = amzius < 18;
 		return false;
 	}
 	else {
