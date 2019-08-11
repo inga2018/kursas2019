@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+</head>
+
+<body>
+<div class="modal">
+	<div class="left"><input type="button" value="<<" id="left"></div>
+	<div class="center"><img></div>
+	<div class="right"><input type="button" value=">>" id="right"></div>
+</div>
+
+<header>
+	<nav class="row row-centered">
+		<ul>
+			<li class="header-text"><a href="index.html">Pagrindinis</a></li>
+			<li class="header-text"><a href="gallery.html">Galerija</a></li>
+			<li class="header-text"><a href="#contacts">Kontaktai</a></li>
+			<li class="header-text"><a href="contact.html">Susisiekite</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div class="empty"></div>
+
+<div class="container gallery">
+	<div class="row">
+	</div>
+</div>
+
+<div class="empty"></div>
+
+<footer id="contacts">
+	<div class="row row-centered">
+		<div class="cols12 colm6 coll4">
+			<div class="footer-text">Mano įmonė UAB</div>
+			<div class="footer-text">Mano įmonės g. 11, LT-84564, Vilnius</div>
+			<div class="footer-text">+37066572345</div>
+			<div class="footer-text">manopastas@pasta.lt</div>
+		</div>
+
+		<div class="cols12 colm6 coll4">
+			<div class="footermap"></div>
+			<div class="footer-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36881.00227890532!2d25.264148753191193!3d54.708521033090776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940407784759%3A0xdfc1a832fa2f67ea!2sCaffeine+LT!5e0!3m2!1slt!2slt!4v1564505001805!5m2!1slt!2slt" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/service.js"></script>
+<script src="js/gallery.js"></script>
+
+<script>
+	startGallery();
+</script>
+
+</body>
+</html>
